@@ -53,7 +53,7 @@ nav{
             height: 3rem;
             }
             #features{
-                background: url(../img/index/bg-features.png);
+                background: url(/taller0/img/bg-features.png);
                 color: white;
                 padding-top: 1rem;
                 }
