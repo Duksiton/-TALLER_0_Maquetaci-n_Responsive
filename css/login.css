@@ -1,7 +1,13 @@
 body {
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
     background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/bg-login.png');
     background-size: cover; 
     background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 
@@ -56,7 +62,7 @@ form {
 
 .register-link {
     position: absolute;
-    bottom: -5px; /* Posiciona el texto justo fuera del recuadro */
+    bottom: -5px; 
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px;
