@@ -273,10 +273,10 @@ nav {
 }
 
 .line-blue {
-    background-color: #337AB7; /* Color azul */
-    height: 1px; /* Altura de la línea */
-    width: 70%; /* Ancho de la línea */
-    margin: auto; /* Centra horizontalmente */
+    background-color: #337AB7;
+    height: 1px; 
+    width: 70%; 
+    margin: auto; 
 }
 
 .opinion {
@@ -299,7 +299,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50%;
   }
   
   .contenedor-opi {
