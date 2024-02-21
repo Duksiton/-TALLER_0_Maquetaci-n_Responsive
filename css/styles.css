@@ -294,20 +294,31 @@ nav {
     color: white;
   }        
 
-
   .cont-opi {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
+    justify-content: space-between;
   }
   
   .contenedor-opi {
-    background-color: #f2f2f2;
+    margin-right: 20px;
+    width: 100;
+    min-width: 250px;
+    max-width: -100px;
     padding: 20px;
-    text-align: center;
-    border-radius: 10px;
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
     
+}
+.contenedor-opi:last-child {
+    margin-right: 0; /* quitamos margen al último */
+  }
+.name-opi,
+.stars {
+  margin-right: 20px;
+  text-align: left;
+} 
+  
+  .op-info {
+    text-align: right;  
   }
   
   .op-img-per {
@@ -322,7 +333,6 @@ nav {
   }
   
   p {
-    margin-bottom: 0;
+    margin-bottom: 0; 
   }
-
   
