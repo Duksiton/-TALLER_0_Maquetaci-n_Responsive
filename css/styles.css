@@ -293,7 +293,36 @@ nav {
     padding: 10px;
     color: white;
   }        
-.op-img{
-        max-width: 100%;
-        height: auto;
-      }      
+
+
+  .cont-opi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contenedor-opi {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
+  
+  .op-img-per {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .stars {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+
+  
