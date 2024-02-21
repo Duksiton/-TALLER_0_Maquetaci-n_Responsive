@@ -197,5 +197,14 @@ nav {
 /*Resolución notebooks*/
 @media screen and (min-width: 1308px){
 }
+/*Resolución Movil pequeño*/
+@media screen and (min-width: 360px){
+}
+/*Resolución Movil medio*/
+@media screen and (min-width: 375){
+}
+/*Resolución Movil grande*/
+@media screen and (min-width: 720){
+}
     
                                         

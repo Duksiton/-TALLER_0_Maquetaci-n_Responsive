@@ -1,0 +1,114 @@
+body {
+    background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/bg-login.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+
+
+form {
+    border: 5px solid #ccc; 
+    padding: 50px; 
+    width: 440px; 
+    height: 300px; 
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(51, 130, 183, 0.5);
+    background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/Hotelia horizontal negro.svg');
+    background-size: 140px; 
+    background-position: 20px 20px; 
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.login-form {
+    border: 1px solid #ccc;
+    padding: 40px;
+    width: 400px;
+    background-color: rgba(51, 130, 183, 0.5);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #337AB7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #23527c;
+}
+
+.register-link {
+    position: absolute;
+    bottom: -5px; /* Posiciona el texto justo fuera del recuadro */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+
+.register-link  {
+    color: #ffffff;
+}
+.link-1{
+    color:#000000;
+    text-decoration: none;
+}
+
+.label-field {
+    font-family: cursive; 
+    font-size: 16px; 
+    color: white; 
+    margin-left: -310px;
+}
+
+
+
+
+/*Resolución tabletas*/ 
+@media screen and (min-width:768px) { 
+    
+}
+/*Resolución resoluciones medias*/ 
+@media screen and (min-width:1024px) { 
+     
+}
+
+/*Resolución resoluciones macro*/ 
+@media screen and (min-width:1308px) { 
+    body{ 
+        background-color: #EAEAEA; 
+    } 
+    #container-grid{ 
+        max-width: 1300px; 
+        margin: 0 auto; 
+    } 
+    nav{ 
+        width: 100%; 
+        max-width: 1300px; 
+    } 
+} 
+
+.flex-form {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  
