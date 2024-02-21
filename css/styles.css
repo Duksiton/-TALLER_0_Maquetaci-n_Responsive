@@ -73,6 +73,34 @@ nav {
     padding-top: 1rem;
 }
 
+.features-1 {
+    background-color: rgba(0, 0, 0, 0.35); /* Fondo negro semitransparente */
+    color: white; /* Color del texto */
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    top: -120px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    padding: 20px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    color: white; /* Color del texto */
+}
+
+.slide-text h1,
+.slide-text p {
+    margin: 0;
+}
+
+
+
 .features-title {
     background-color: rgba(0, 0, 0, 0.35);
     text-align: center;
@@ -206,5 +234,11 @@ nav {
 /*Resolución Movil grande*/
 @media screen and (min-width: 720){
 }
-    
+#banner { 
+    background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/slide1.jpg'); 
+    background-size: cover; 
+    background-position: 50% 50%; 
+    min-height: 400px; 
+    margin-top: 0px;  
+} 
                                         
