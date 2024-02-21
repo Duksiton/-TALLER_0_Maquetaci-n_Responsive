@@ -108,6 +108,7 @@ nav {
 
 .text-container {
     margin-right: 50px; 
+    font-size: 28px;
 }
 
 .logo-container img {
@@ -257,4 +258,26 @@ nav {
     min-height: 400px; 
     margin-top: 0px;  
 } 
-                                        
+.locate {
+    text-align: center; 
+}       
+.text-locate{
+    font-size: 50px;
+}     
+.locate {
+    text-align: center; /* Centra horizontalmente */
+}
+
+.locate {
+    text-align: center; /* Centra horizontalmente */
+}
+
+.line-blue {
+    background-color: #337AB7; /* Color azul */
+    height: 1px; /* Altura de la línea */
+    width: 70%; /* Ancho de la línea */
+    margin: auto; /* Centra horizontalmente */
+}
+
+
+                        
