@@ -99,6 +99,22 @@ nav {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 50px; 
+}
+
+.text-container {
+    margin-right: 50px; 
+}
+
+.logo-container img {
+    max-width: 200px; 
+}
+
+
 
 
 .features-title {
