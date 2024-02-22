@@ -1,0 +1,162 @@
+/* Importando la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Definiendo colores */
+:root {
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337ab7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background: url(/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/bgregister.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.banner-blue {
+    background-color: rgba(51, 122, 183, 0.8); 
+    width: 500px; 
+    height: 100%; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    padding: 20px; 
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px; /* Altura mínima del contenedor */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    left: 16%;
+    width: 70%; /* Reducir el ancho del formulario */
+    max-width: 800px; /* Añadido */
+}
+
+.register-form {
+    width: 100%; /* Ancho del formulario */
+    padding: 20px;
+    margin-top: 20px; /* Espacio superior */
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap; /* Añadido */
+    align-items: center;
+    justify-content: space-between; /* Espacio entre elementos */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.form-col {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    margin-right: 0; /* Espacio entre columnas */
+}
+
+.label-col {
+    flex-basis: 30%; /* Ancho de las etiquetas */
+    margin-bottom: 10px; /* Añadido */
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+input[type="file"] {
+    background-color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 0px;
+}
+
+/* Media query para dispositivos de pantalla pequeña */
+@media screen and (max-width: 768px) {
+    .register {
+        width: 100%; /* Ancho completo en dispositivos móviles */
+        left: 0; /* Alineación a la izquierda */
+    }
+
+    input,
+    select,
+    button {
+        width: calc(100% - 20px); /* Ajustar el ancho del campo de entrada */
+    }
+}
