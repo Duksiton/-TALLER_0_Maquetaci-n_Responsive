@@ -1,0 +1,238 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background: url("/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/bgdashboard.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+.nav-lat {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container img {
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-bottom: 20px;
+}
+
+.nav-container h1 {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Aumenta el espacio entre cada elemento */
+}
+
+.nav-container h1 .fa {
+    margin-right: 10px;
+}
+
+.nav-container .name {
+    margin-bottom: 10px;
+}
+
+.nav-container .email {
+    margin-bottom: 20px;
+}
+
+.nav-container .line {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.nav-container .logout {
+    margin-top: auto; /* Alinea el elemento al final de la barra lateral */
+    margin-bottom: 20px; /* Aumenta el espacio entre el elemento y el final de la barra lateral */
+}
+.nav-logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    z-index: -2; 
+}
+.nav-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/Vector-opinion.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+.nav-logo {
+    position: relative; /* Establece la posición relativa para los seudoelementos */
+}
+
+.nav-logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    z-index: -2; 
+}
+
+.nav-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-image: url('/repositorios/-TALLER_0_Maquetaci-n_Responsive/img/Vector-opinion.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.white-dash {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.upload-icon {
+    font-size: 2rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-btn {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #444;
+}
+
+@media (max-width: 767.98px) {
+    .white-dash {
+        flex-direction: column;
+    }
+
+    .profile-pic {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .white-dash {
+        flex-direction: row;
+    }
+
+    .white-dash .col-md-6 {
+        flex: 1;
+    }
+
+    .white-dash .col-md-6:first-child {
+        margin-right: 2rem;
+    }
+
+    .white-dash .col-md-6:last-child {
+        margin-left: 2rem;
+    }
+
+    .white-dash .col-md-6:first-child .form-group {
+        margin-bottom: 0;
+    }
+
+    .white-dash .col-md-6:last-child .form-group {
+        margin-bottom: 2rem;
+    }
+
+    .white-dash .col-md-6:first-child .form-group {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .white-dash .col-md-6:last-child .form-group {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+    }
+}
